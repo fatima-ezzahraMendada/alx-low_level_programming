@@ -1,1 +1,1 @@
-variables and conditons
+readme 0x07
