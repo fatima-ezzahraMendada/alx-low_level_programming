@@ -1,19 +1,16 @@
 #include "main.h"
-
 /**
- * _puts_recursion -Prints a string follow by a line
- * @c: string
- *
- * Return: On sucess 1
- * On error -1 is return
- */
+*_puts_recursion - function that prints string follow by line
+*@c: input
+*Return: always return 0 if sucess
+*/
 void _puts_recursion(char *c)
 {
-	if (*c)
-	{
-		_putchar(*c);
-		_puts_recursion(c+1);
-	}
-	else
-		_putchar('\n');
+if (*c)
+{
+_putchar(*c);
+_puts_recursion(c + 1);
+}
+else
+_putchar('\n');
 }
