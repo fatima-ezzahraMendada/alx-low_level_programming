@@ -8,11 +8,11 @@
  */
 int _pow_recursion(int a, int b)
 {
-if (y < 0)
+if (b < 0)
 {
 return (-1);
 }
-if (y == 0)
+if (b == 0)
 {
 return (1);
 }
